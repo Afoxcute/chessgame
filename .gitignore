@@ -1,0 +1,6 @@
+node_modules
+.idea
+*.iml
+/src/client/public/*
+.env
+*.txt

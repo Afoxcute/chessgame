@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('../fonts/NotoSans-Regular.ttf'),
+         url('../fonts/NotoSans-Bold.ttf'),
+         url('../fonts/NotoSans-Italic.ttf'),
+         url('../fonts/NotoSans-BoldItalic.ttf')
+}
+
+body {
+    background-color: #1a1a1a;
+    margin-left: 1em;
+    min-width: 1620px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	user-select: none;
+	cursor: default;
+	color: #ABABAB;
+}
+
+div, th, td {
+	color: #ABABAB;
+}
+
+/* For react-notification-system */
+.notification-message {
+	color: black;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
+.noBottomMargin {
+    margin-bottom: 0;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+/* SLIDERS */
+
+.slider-handle {
+    background: #000000;
+}
+
+.slider-track {
+    top: 0 !important;
+    background: #d85000;
+}
+
+.slider-selection {
+    background: #5D5D5D;
+}
+
+#ratingSliderDiv .slider-selection {
+    background: #d85000 !important;
+}
+#ratingSliderDiv .slider-track {
+    background: #5D5D5D !important;
+}
+
+/* SWITCHES */
+
+.bootstrap-switch{
+    border: none;
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-orange {
+    color: #fff;
+    background: #d85000;
+}
+
+/* Buttons */
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #777;
+    border-color: #555;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open .dropdown-toggle.btn-secondary {
+    color: #ffffff;
+    background-color: #555555;
+    border-color: #555555;
+}
+
+.btn-secondary-no-hover {
+	color: #ffffff;
+	background-color: #777;
+	border-color: #555;
+}
+
+/* Lobby Table */
+
+#lobbyTable table.table-fixedheader {
+    width: 100%;
+}
+
+#lobbyTable table.table-fixedheader, #lobbyTable table.table-fixedheader>thead, #lobbyTable table.table-fixedheader>tbody, #lobbyTable table.table-fixedheader>thead>tr, #lobbyTable table.table-fixedheader>tbody>tr, #lobbyTable table.table-fixedheader>thead>tr>th, #lobbyTable table.table-fixedheader>tbody>td {
+    display: block;
+}
+#lobbyTable table.table-fixedheader>thead>tr:after, #lobbyTable table.table-fixedheader>tbody>tr:after {
+    content:' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+#lobbyTable table.table-fixedheader>tbody {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+#lobbyTable table.table-fixedheader>thead {
+    overflow-y: scroll;
+}
+
+#lobbyTable table.table-fixedheader>thead::-webkit-scrollbar {
+    background-color: inherit;
+}
+
+#lobbyTable table.table-fixedheader>thead>tr>th:after, table.table-fixedheader>tbody>tr>td:after {
+    content:' ';
+    display: table-cell;
+    visibility: hidden;
+    clear: both;
+}
+
+#lobbyTable table.table-fixedheader>thead tr th, table.table-fixedheader>tbody tr td {
+    float: left;
+    word-wrap:break-word;
+}
+
+#lobbyTable .table {
+    background-color: #383838;
+}
+
+#lobbyTable .table-hover tbody tr:hover, .table-hover tbody tr:hover th {
+    background-color: #464646;
+}
+
+/* Modal */
+
+.centerDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
