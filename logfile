@@ -1,0 +1,16 @@
+2021-06-06 16:47:47.042 GMT [17640] LOG:  starting PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2021-06-06 16:47:47.051 GMT [17640] LOG:  could not bind IPv6 address "::1": Permission denied
+2021-06-06 16:47:47.051 GMT [17640] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-06-06 16:47:47.052 GMT [17640] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2021-06-06 16:47:47.052 GMT [17640] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-06-06 16:47:47.053 GMT [17640] WARNING:  could not create listen socket for "localhost"
+2021-06-06 16:47:47.053 GMT [17640] FATAL:  could not create any TCP/IP sockets
+2021-06-06 16:47:47.058 GMT [17640] LOG:  database system is shut down
+2021-06-06 16:49:21.743 GMT [8304] LOG:  starting PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2021-06-06 16:49:21.750 GMT [8304] LOG:  could not bind IPv6 address "::1": Permission denied
+2021-06-06 16:49:21.750 GMT [8304] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-06-06 16:49:21.751 GMT [8304] LOG:  could not bind IPv4 address "127.0.0.1": Permission denied
+2021-06-06 16:49:21.751 GMT [8304] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-06-06 16:49:21.752 GMT [8304] WARNING:  could not create listen socket for "localhost"
+2021-06-06 16:49:21.752 GMT [8304] FATAL:  could not create any TCP/IP sockets
+2021-06-06 16:49:21.756 GMT [8304] LOG:  database system is shut down

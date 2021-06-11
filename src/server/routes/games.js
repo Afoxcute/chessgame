@@ -35,7 +35,7 @@ router.post('/', async (req, res) => {
 			|| (!req.body.player1 && !req.body.player2)
 			|| (req.body.ratingRange.split(' - ').length === 1)
 			|| (parseInt(req.body.ratingRange.split(' - ')[0]) < 0)
-			|| (parseInt(req.body.ratingRange.split(' - ')[1]) > 3000)) {
+			|| (parseInt(req.body.ratingRange.split(' - ')[1]) > 3001)) {
 			res.sendStatus(400);
 		} else {
 			const requestPlayerID = req.body.player1 ? req.body.player1 : req.body.player2;

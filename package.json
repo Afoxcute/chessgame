@@ -1,5 +1,5 @@
 {
-  "name": "Bughouse-Chess",
+  "name": "chessgame",
   "version": "0.1.1",
   "private": false,
   "description": "Bughouse chess web application",
@@ -42,7 +42,7 @@
     "morgan": "^1.8.1",
     "node-postgres": "^0.6.2",
     "nodemailer": "^6.6.1",
-    "pg": "^5.1.0",
+    "pg-native": "^3.0.0",
     "pg-promise": "^5.9.7",
     "prop-types": "^15.5.10",
     "react": "^17.0.2",
